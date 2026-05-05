@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F3;
+    color: #0F0F0F;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.menu {
+    background-color: rgba(15, 15, 15, 0.96);
+    border-bottom: 1px solid #B8A46D;
+}
+
+.marca {
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.hero-formulario {
+    min-height: 55vh;
+    background-image:
+        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+        url("imagenes/home/hero.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 80px 60px;
+}
+
+.hero-resultado {
+    min-height: 40vh;
+}
+
+.hero-texto {
+    color: white;
+    max-width: 750px;
+}
+
+.hero-texto h1 {
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.hero-texto p {
+    font-size: 20px;
+}
+
+.subtitulo {
+    color: #B8A46D;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+section {
+    padding: 80px 0;
+}
+
+h2 {
+    text-align: center;
+    color: #0F0F0F;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.texto-centro {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 35px;
+}
+
+.tarjeta-formulario {
+    background-color: white;
+    border: 1px solid #CFCFCF;
+    border-left: 5px solid #B8A46D;
+    padding: 35px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.09);
+}
+
+.form-control {
+    border: 1px solid #CFCFCF;
+    border-radius: 0;
+}
+
+.form-control:focus {
+    border-color: #B8A46D;
+    box-shadow: 0 0 5px rgba(184, 164, 109, 0.5);
+}
+
+.btn-dorado {
+    background-color: #B8A46D;
+    color: white;
+    border: none;
+    border-radius: 0;
+    padding: 12px 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-dorado:hover {
+    background-color: #0F0F0F;
+    color: white;
+}
+
+.resultado-contenedor {
+    padding: 80px 0;
+}
+
+.tarjeta-resultado {
+    background-color: white;
+    border: 1px solid #CFCFCF;
+    border-left: 5px solid #B8A46D;
+    padding: 35px;
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.09);
+}
+
+.tarjeta-resultado h1 {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.tarjeta-resultado p {
+    word-wrap: break-word;
+}
+
+.footer-moda {
+    background-color: #0F0F0F;
+    color: white;
+    padding: 50px 0;
+}
+
+.footer-moda h5 {
+    color: #B8A46D;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.footer-moda p {
+    font-size: 14px;
+}
+
+.direccion {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #CFCFCF;
+    border-left: 3px solid #B8A46D;
+    padding-left: 10px;
+}
+
+.redes {
+    margin-top: 20px;
+}
+
+.redes img {
+    width: 38px;
+    margin: 12px;
+    transition: 0.3s;
+}
+
+.redes img:hover {
+    transform: scale(1.2);
+}
+
+hr {
+    border-color: #B8A46D;
+    opacity: 0.6;
+}
+
+@media (max-width: 768px) {
+    .hero-formulario {
+        text-align: center;
+        padding: 80px 20px;
+    }
+
+    .hero-texto h1 {
+        font-size: 42px;
+    }
+
+    .hero-texto p {
+        font-size: 17px;
+    }
+
+    .tarjeta-formulario,
+    .tarjeta-resultado {
+        padding: 25px;
+    }
+}
